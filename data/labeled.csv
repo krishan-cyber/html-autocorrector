@@ -1,0 +1,11 @@
+incorrect_html_code,corrected_code
+<html><body><h1>Welcome</h1>,<!DOCTYPE html><html><body><h1>Welcome</h1></body></html>
+<html><head><title>Page</head></title>,<html><head><title>Page</title></head></html>
+<font>Deprecated tag</font>,<p style='font-style: italic;'>Deprecated tag</p>
+<div><i>Improperly nested</b></i></div>,<div><i>Improperly nested</i></div>
+<img src='image.jpg' alt=''>,<img src='image.jpg' alt='Image description'>
+<a href='#'>Click here</a>,<a href='#'>Learn more</a>
+<table border='1'><tr><td>Data</td></tr></table>,<div class='container'>...</div>
+<span style='color: red;'>Red text</span>,<span class='red-text'>Red text</span>
+<br><br><br>,<p>Paragraph with appropriate line breaks.</p>
+<strong>Strong emphasis</strong> <b>Bold text</b>,<strong>Strong emphasis</strong> <strong>Bold text</strong>

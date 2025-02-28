@@ -2,23 +2,25 @@ HTML Autocorrector
 
 The HTML Autocorrector is a machine learning-based tool that automatically identifies and corrects common bad coding practices in HTML code. The tool uses a Random Forest classifier trained on labeled examples of bad and corrected HTML code. It supports evaluating model performance, training with new data, and testing with specific examples.
 
+
+
 File hierarchy
 
 html autocorrector/
 │
 ├── data/
 │   
-│   ├── labeled_data.csv          # Labeled dataset (incoorect_html_code and corrected_code)
+│   ├── labeled_data.csv          # Labeled dataset (incoorect_html_code and corrected_code)<br>
 │
-├── preprocess.py                 # Script for preprocessing and feature extraction
-├── train_model.py                # Script for training the Random Forest model
-├── test_model.py                 # Script for model evaluation and testing
-├── autocorrector.py              # Script for using the trained model to correct HTML
+├── preprocess.py                 # Script for preprocessing and feature extraction<br>
+├── train_model.py                # Script for training the Random Forest model<br>
+├── test_model.py                 # Script for model evaluation and testing<br>
+├── autocorrector.py              # Script for using the trained model to correct HTML<br>
 │
-├── model.pkl                     # Pre-trained Random Forest model
-├── vectorizer.pkl                # Vectorizer used for tokenizing HTML
-├── requirements.txt              # Python dependencies
-├── README.md                     # Documentation
+├── model.pkl                     # Pre-trained Random Forest model<br>
+├── vectorizer.pkl                # Vectorizer used for tokenizing HTML<br>
+├── requirements.txt              # Python dependencies<br>
+├── README.md                     # Documentation<br>
 
 
 MODEL DEVLOPMENT:
